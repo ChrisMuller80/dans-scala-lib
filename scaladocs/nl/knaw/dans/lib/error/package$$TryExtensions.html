@@ -1,0 +1,585 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+          <title>DANS Scala 2.12 Library 3.0.2-SNAPSHOT API  - nl.knaw.dans.lib.error.TryExtensions</title>
+          <meta name="description" content="DANS Scala 2.12 Library 3.0.2 - SNAPSHOT API - nl.knaw.dans.lib.error.TryExtensions" />
+          <meta name="keywords" content="DANS Scala 2.12 Library 3.0.2 SNAPSHOT API nl.knaw.dans.lib.error.TryExtensions" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      
+      <link href="../../../../../lib/index.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.min.js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery.panzoom.min.js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery.mousewheel.min.js"></script>
+      <script type="text/javascript" src="../../../../../lib/index.js"></script>
+      <script type="text/javascript" src="../../../../../index.js"></script>
+      <script type="text/javascript" src="../../../../../lib/scheduler.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      
+      <script type="text/javascript">
+        /* this variable can be used by the JS to determine the path to the root document */
+        var toRoot = '../../../../../';
+      </script>
+    
+        </head>
+        <body>
+      <div id="search">
+        <span id="doc-title">DANS Scala 2.12 Library 3.0.2-SNAPSHOT API<span id="doc-version"></span></span>
+        <span class="close-results"><span class="left">&lt;</span> Back</span>
+        <div id="textfilter">
+          <span class="input">
+            <input autocapitalize="none" placeholder="Search" id="index-input" type="text" accesskey="/" />
+            <i class="clear material-icons"></i>
+            <i id="search-icon" class="material-icons"></i>
+          </span>
+        </div>
+    </div>
+      <div id="search-results">
+        <div id="search-progress">
+          <div id="progress-fill"></div>
+        </div>
+        <div id="results-content">
+          <div id="entity-results"></div>
+          <div id="member-results"></div>
+        </div>
+      </div>
+      <div id="content-scroll-container" style="-webkit-overflow-scrolling: touch;">
+        <div id="content-container" style="-webkit-overflow-scrolling: touch;">
+          <div id="subpackage-spacer">
+            <div id="packages">
+              <h1>Packages</h1>
+              <ul>
+                <li name="_root_.root" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="_root_"></a><a id="root:_root_"></a>
+      <span class="permalink">
+      <a href="../../../../../index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../../../../../index.html"><span class="name">root</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../../../../index.html" class="extype" name="_root_">root</a></dd></dl></div>
+    </li><li name="_root_.nl" visbl="pub" class="indented1 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="nl"></a><a id="nl:nl"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../../../../index.html"><span class="name">nl</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../../../../index.html" class="extype" name="_root_">root</a></dd></dl></div>
+    </li><li name="nl.knaw" visbl="pub" class="indented2 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="knaw"></a><a id="knaw:knaw"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../../../index.html"><span class="name">knaw</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../../../index.html" class="extype" name="nl">nl</a></dd></dl></div>
+    </li><li name="nl.knaw.dans" visbl="pub" class="indented3 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="dans"></a><a id="dans:dans"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../../index.html"><span class="name">dans</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../../index.html" class="extype" name="nl.knaw">knaw</a></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib" visbl="pub" class="indented4 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="lib"></a><a id="lib:lib"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../index.html"><span class="name">lib</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../index.html" class="extype" name="nl.knaw.dans">dans</a></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.error" visbl="pub" class="indented5 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error"></a><a id="error:error"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="index.html"><span class="name">error</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="nl.knaw.dans.lib">lib</a></dd></dl></div>
+    </li><li class="current-entities indented5">
+                        <a class="object" href="CompositeException$.html" title=""></a>
+                        <a class="class" href="CompositeException.html" title="An exception that bundles a collection of Throwables."></a>
+                        <a href="CompositeException.html" title="An exception that bundles a collection of Throwables.">CompositeException</a>
+                      </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="class" href="package$$TraversableTryExtensions.html" title=""></a>
+                        <a href="package$$TraversableTryExtensions.html" title="">TraversableTryExtensions</a>
+                      </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="class" href="" title=""></a>
+                        <a href="" title="">TryExtensions</a>
+                      </li>
+              </ul>
+            </div>
+          </div>
+          <div id="content">
+            <body class="class type">
+      <div id="definition">
+        <div class="big-circle class">c</div>
+        <p id="owner"><a href="../../../../index.html" class="extype" name="nl">nl</a>.<a href="../../../index.html" class="extype" name="nl.knaw">knaw</a>.<a href="../../index.html" class="extype" name="nl.knaw.dans">dans</a>.<a href="../index.html" class="extype" name="nl.knaw.dans.lib">lib</a>.<a href="index.html" class="extype" name="nl.knaw.dans.lib.error">error</a></p>
+        <h1>TryExtensions<span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span></h1>
+        <h3><span class="morelinks"></span></h3>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TryExtensions</span><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyVal">AnyVal</span></span>
+      </span>
+      </h4>
+
+      
+          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <span class="toggle">
+            Linear Supertypes
+          </span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyVal">AnyVal</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div class="toggle"></div>
+        <div id="memberfilter">
+          <i class="material-icons arrow"></i>
+          <span class="input">
+            <input id="mbrsel-input" placeholder="Filter all members" type="text" accesskey="/" />
+          </span>
+          <i class="clear material-icons"></i>
+        </div>
+        <div id="filterby">
+          <div id="order">
+            <span class="filtertype">Ordering</span>
+            <ol>
+              
+              <li class="alpha in"><span>Alphabetic</span></li>
+              <li class="inherit out"><span>By Inheritance</span></li>
+            </ol>
+          </div>
+          <div class="ancestors">
+                  <span class="filtertype">Inherited<br />
+                  </span>
+                  <ol id="linearization">
+                    <li class="in" name="nl.knaw.dans.lib.error.TryExtensions"><span>TryExtensions</span></li><li class="in" name="scala.AnyVal"><span>AnyVal</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                  </ol>
+                </div><div class="ancestors">
+              <span class="filtertype"></span>
+              <ol>
+                <li class="hideall out"><span>Hide All</span></li>
+                <li class="showall in"><span>Show All</span></li>
+              </ol>
+            </div>
+          <div id="visbl">
+              <span class="filtertype">Visibility</span>
+              <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+            </div>
+        </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        <div id="constructors" class="members">
+              <h3>Instance Constructors</h3>
+              <ol><li name="nl.knaw.dans.lib.error.TryExtensions#&lt;init&gt;" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="&lt;init&gt;(t:scala.util.Try[T]):nl.knaw.dans.lib.error.package.TryExtensions[T]"></a><a id="&lt;init&gt;:TryExtensions[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#&lt;init&gt;(t:scala.util.Try[T]):nl.knaw.dans.lib.error.package.TryExtensions[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">new</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TryExtensions</span><span class="params">(<span name="t">t: <span class="extype" name="scala.util.Try">Try</span>[<span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.T">T</span>]</span>)</span>
+      </span>
+      
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        <div class="values members">
+              <h3>Value Members</h3>
+              <ol>
+                <li name="scala.Any#!=" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a><a id="!=(Any):Boolean"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#!=(x$1:Any):Boolean" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.Any###" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html###():Int" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.Any#==" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a><a id="==(Any):Boolean"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#==(x$1:Any):Boolean" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#asInstanceOf[T0]:T0" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.error.TryExtensions#combine" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="combine[S,R](other:scala.util.Try[S])(implicitev:T&lt;:&lt;S=&gt;R):scala.util.Try[R]"></a><a id="combine[S,R](Try[S])(&lt;:&lt;[T,(S)⇒R]):Try[R]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#combine[S,R](other:scala.util.Try[S])(implicitev:T&lt;:&lt;S=&gt;R):scala.util.Try[R]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">combine</span><span class="tparams">[<span name="S">S</span>, <span name="R">R</span>]</span><span class="params">(<span name="other">other: <span class="extype" name="scala.util.Try">Try</span>[<span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.combine.S">S</span>]</span>)</span><span class="params">(<span class="implicit">implicit </span><span name="ev">ev: <span class="extype" name="scala.Predef.&lt;:&lt;">&lt;:&lt;</span>[<span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.T">T</span>, (<span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.combine.S">S</span>) ⇒ <span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.combine.R">R</span>]</span>)</span><span class="result">: <span class="extype" name="scala.util.Try">Try</span>[<span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.combine.R">R</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Combines the results of <code>this</code> and <code>other</code> by either applying the function in <code>this</code> to the
+value in <code>other</code> (if both are a <code>Success</code>) or returning a <code>Failure</code> (in case either one or
+both of them are a <code>Failure</code>).</p><div class="fullcomment"><div class="comment cmt"><p>Combines the results of <code>this</code> and <code>other</code> by either applying the function in <code>this</code> to the
+value in <code>other</code> (if both are a <code>Success</code>) or returning a <code>Failure</code> (in case either one or
+both of them are a <code>Failure</code>).</p><p>Example:</p><pre><span class="kw">import</span> nl.knaw.dans.lib.error.TryExtensions
+
+<span class="kw">import</span> scala.util.{Failure, Success, Try}
+
+<span class="kw">def</span> add(i: <span class="std">Int</span>)(j: <span class="std">Int</span>): <span class="std">Int</span> = i + j
+
+<span class="kw">val</span> input1 = Try(<span class="num">1</span>)
+<span class="kw">val</span> input2 = Try(<span class="num">2</span>)
+
+Try { add _ }.combine(input1).combine(input2)</pre></div><dl class="paramcmts block"><dt class="tparam">S</dt><dd class="cmt"><p>the input of the function in <code>this</code></p></dd><dt class="tparam">R</dt><dd class="cmt"><p>the output of the function in <code>this</code></p></dd><dt class="param">other</dt><dd class="cmt"><p>the value to be applied to the function in <code>this</code></p></dd><dt class="param">ev</dt><dd class="cmt"><p>evidence that <code>T</code> is a function</p></dd><dt>returns</dt><dd class="cmt"><p>the result of applying the value in <code>this</code> to <code>other</code></p></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.error.TryExtensions#doIfFailure" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="doIfFailure[A](sideEffect:PartialFunction[Throwable,A]):scala.util.Try[T]"></a><a id="doIfFailure[A](PartialFunction[Throwable,A]):Try[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#doIfFailure[A](sideEffect:PartialFunction[Throwable,A]):scala.util.Try[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">doIfFailure</span><span class="tparams">[<span name="A">A</span>]</span><span class="params">(<span name="sideEffect">sideEffect: <span class="extype" name="scala.PartialFunction">PartialFunction</span>[<span class="extype" name="scala.Throwable">Throwable</span>, <span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.doIfFailure.A">A</span>]</span>)</span><span class="result">: <span class="extype" name="scala.util.Try">Try</span>[<span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.T">T</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Applies the given side effecting <code>PartialFunction</code> if and only if this is a <code>Failure</code> and
+the <code>Throwable</code> is defined in the <code>PartialFunction</code>.</p><div class="fullcomment"><div class="comment cmt"><p>Applies the given side effecting <code>PartialFunction</code> if and only if this is a <code>Failure</code> and
+the <code>Throwable</code> is defined in the <code>PartialFunction</code>.</p><p>Example:</p><pre><span class="kw">import</span> nl.knaw.dans.lib.error.TryExtensions
+
+<span class="kw">import</span> scala.util.{Failure, Success, Try}
+
+<span class="kw">def</span> getFileLength(file: File): Try[<span class="std">Long</span>] =
+  <span class="kw">if</span> (file.exists) Success(file.length)
+  <span class="kw">else</span> Failure(<span class="kw">new</span> FileNotFoundException())
+
+<span class="cmt">// Fill in existing or non-existing file</span>
+<span class="kw">val</span> file = <span class="kw">new</span> File(<span class="lit">"x"</span>)
+
+getFileLength(file)
+  .doIfFailure {
+    <span class="kw">case</span> e: FileNotFoundException <span class="kw">=&gt;</span> println(e.getMessage)
+  }</pre></div><dl class="paramcmts block"><dt class="param">sideEffect</dt><dd class="cmt"><p>the side effecting function to be applied</p></dd><dt>returns</dt><dd class="cmt"><p>the original <code>Try</code></p></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.error.TryExtensions#doIfSuccess" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="doIfSuccess[A](sideEffect:T=&gt;A):scala.util.Try[T]"></a><a id="doIfSuccess[A]((T)⇒A):Try[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#doIfSuccess[A](sideEffect:T=&gt;A):scala.util.Try[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">doIfSuccess</span><span class="tparams">[<span name="A">A</span>]</span><span class="params">(<span name="sideEffect">sideEffect: (<span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.T">T</span>) ⇒ <span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.doIfSuccess.A">A</span></span>)</span><span class="result">: <span class="extype" name="scala.util.Try">Try</span>[<span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.T">T</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Applies the given side effecting function if and only if this is a <code>Success</code>.</p><div class="fullcomment"><div class="comment cmt"><p>Applies the given side effecting function if and only if this is a <code>Success</code>.</p><p>Example:</p><pre><span class="kw">import</span> nl.knaw.dans.lib.error.TryExtensions
+
+<span class="kw">import</span> scala.util.{Failure, Success, Try}
+
+<span class="kw">def</span> getFileLength(file: File): Try[<span class="std">Long</span>] =
+  <span class="kw">if</span> (file.exists) Success(file.length)
+  <span class="kw">else</span> Failure(<span class="kw">new</span> FileNotFoundException())
+
+<span class="kw">def</span> performSideEffect(size: <span class="std">Long</span>): <span class="std">Unit</span> = println(s<span class="lit">"size = $$size"</span>)
+
+<span class="cmt">// Fill in existing or non-existing file</span>
+<span class="kw">val</span> file = <span class="kw">new</span> File(<span class="lit">"x"</span>)
+
+getFileLength(file)
+  .doIfSuccess(size <span class="kw">=&gt;</span> performSideEffect(size))</pre></div><dl class="paramcmts block"><dt class="param">sideEffect</dt><dd class="cmt"><p>the side effecting function to be applied</p></dd><dt>returns</dt><dd class="cmt"><p>the original <code>Try</code></p></dd></dl></div>
+    </li><li name="scala.AnyVal#getClass" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_&lt;:AnyVal]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#getClass():Class[_&lt;:AnyVal]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Predef.Class">Class</span>[_ &lt;: <span class="extype" name="scala.AnyVal">AnyVal</span>]</span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyVal → Any</dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.error.TryExtensions#getOrRecover" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getOrRecover[S&gt;:T](recover:Throwable=&gt;S):S"></a><a id="getOrRecover[S&gt;:T]((Throwable)⇒S):S"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#getOrRecover[S&gt;:T](recover:Throwable=&gt;S):S" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getOrRecover</span><span class="tparams">[<span name="S">S &gt;: <span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.T">T</span></span>]</span><span class="params">(<span name="recover">recover: (<span class="extype" name="scala.Throwable">Throwable</span>) ⇒ <span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.getOrRecover.S">S</span></span>)</span><span class="result">: <span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.getOrRecover.S">S</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Terminating operator for <code>Try</code> that converts the <code>Failure</code> case in a value.</p><div class="fullcomment"><div class="comment cmt"><p>Terminating operator for <code>Try</code> that converts the <code>Failure</code> case in a value.</p><p>Example:</p><pre><span class="kw">import</span> nl.knaw.dans.lib.error.TryExtensions
+<span class="kw">import</span> java.io.{ File, FileNotFoundException }
+<span class="kw">import</span> scala.util.{Failure, Success, Try}
+
+<span class="kw">def</span> getFileName(file: File): Try[<span class="std">String</span>] =
+  <span class="kw">if</span> (file.exists) Success(file.getName)
+  <span class="kw">else</span> Failure(<span class="kw">new</span> FileNotFoundException())
+
+<span class="cmt">// Fill in existing or non-existing file</span>
+<span class="kw">val</span> file = <span class="kw">new</span> File(<span class="lit">"x"</span>)
+
+getFileName(file)
+  .getOrRecover {
+    <span class="cmt">// error codes</span>
+    <span class="kw">case</span> _: FileNotFoundException <span class="kw">=&gt;</span> <span class="lit">"&lt;file not found&gt;"</span>
+    <span class="kw">case</span> _ <span class="kw">=&gt;</span> <span class="lit">"&lt;an internal error occurred&gt;"</span>
+  }</pre></div><dl class="paramcmts block"><dt class="param">recover</dt><dd class="cmt"><p>recovers a <code>Throwable</code> and turns it into a value of type <code>T</code></p></dd><dt>returns</dt><dd class="cmt"><p>either the value inside <code>Try</code> (on success) or the result of <code>recover</code> (on failure)</p></dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#isInstanceOf[T0]:Boolean" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.error.TryExtensions#t" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="t:scala.util.Try[T]"></a><a id="t:Try[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#t:scala.util.Try[T]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">t</span><span class="result">: <span class="extype" name="scala.util.Try">Try</span>[<span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.T">T</span>]</span>
+      </span>
+      
+      
+    </li><li name="scala.Any#toString" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#toString():String" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.error.TryExtensions#unsafeGetOrThrow" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="unsafeGetOrThrow:T"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/package$$TryExtensions.html#unsafeGetOrThrow:T" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">unsafeGetOrThrow</span><span class="result">: <span class="extype" name="nl.knaw.dans.lib.error.TryExtensions.T">T</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Returns the value inside a <code>Success</code> or throws the <code>Throwable</code> inside a <code>Failure</code>.</p><div class="fullcomment"><div class="comment cmt"><p>Returns the value inside a <code>Success</code> or throws the <code>Throwable</code> inside a <code>Failure</code>.
+Note that this behavior is the same as <code>Try.get</code>, but that this explicitly acknowledges the
+potential danger of throwing an <code>Exception</code>.</p><p>This method should only be used in the exceptional case that throwing the <code>Exception</code> is the
+only possible solution. The user should have made extra effort to avoid the use of this method
+before deciding to use it!</p><p>Example:</p><pre><span class="kw">import</span> nl.knaw.dans.lib.error.TryExtensions
+<span class="kw">import</span> java.io.{ File, FileNotFoundException }
+<span class="kw">import</span> scala.util.{Failure, Success, Try}
+
+<span class="kw">def</span> getFileName(file: File): Try[<span class="std">String</span>] =
+  <span class="kw">if</span> (file.exists) Success(file.getName)
+  <span class="kw">else</span> Failure(<span class="kw">new</span> FileNotFoundException())
+
+<span class="cmt">// Fill in existing or non-existing file</span>
+<span class="kw">val</span> file = <span class="kw">new</span> File(<span class="lit">"x"</span>)
+
+<span class="kw">val</span> filename = getFileName(file).unsafeGetOrThrow</pre></div></div>
+    </li>
+              </ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyVal">
+              <h3>Inherited from <span class="extype" name="scala.AnyVal">AnyVal</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+    </body>
+          </div>
+        </div>
+      </div>
+    </body>
+      </html>

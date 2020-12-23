@@ -1,0 +1,550 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+          <title>DANS Scala 2.12 Library 3.0.2-SNAPSHOT API  - nl.knaw.dans.lib.taskqueue</title>
+          <meta name="description" content="DANS Scala 2.12 Library 3.0.2 - SNAPSHOT API - nl.knaw.dans.lib.taskqueue" />
+          <meta name="keywords" content="DANS Scala 2.12 Library 3.0.2 SNAPSHOT API nl.knaw.dans.lib.taskqueue" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      
+      <link href="../../../../../lib/index.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.min.js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery.panzoom.min.js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery.mousewheel.min.js"></script>
+      <script type="text/javascript" src="../../../../../lib/index.js"></script>
+      <script type="text/javascript" src="../../../../../index.js"></script>
+      <script type="text/javascript" src="../../../../../lib/scheduler.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      
+      <script type="text/javascript">
+        /* this variable can be used by the JS to determine the path to the root document */
+        var toRoot = '../../../../../';
+      </script>
+    
+        </head>
+        <body>
+      <div id="search">
+        <span id="doc-title">DANS Scala 2.12 Library 3.0.2-SNAPSHOT API<span id="doc-version"></span></span>
+        <span class="close-results"><span class="left">&lt;</span> Back</span>
+        <div id="textfilter">
+          <span class="input">
+            <input autocapitalize="none" placeholder="Search" id="index-input" type="text" accesskey="/" />
+            <i class="clear material-icons"></i>
+            <i id="search-icon" class="material-icons"></i>
+          </span>
+        </div>
+    </div>
+      <div id="search-results">
+        <div id="search-progress">
+          <div id="progress-fill"></div>
+        </div>
+        <div id="results-content">
+          <div id="entity-results"></div>
+          <div id="member-results"></div>
+        </div>
+      </div>
+      <div id="content-scroll-container" style="-webkit-overflow-scrolling: touch;">
+        <div id="content-container" style="-webkit-overflow-scrolling: touch;">
+          <div id="subpackage-spacer">
+            <div id="packages">
+              <h1>Packages</h1>
+              <ul>
+                <li name="_root_.root" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="_root_"></a><a id="root:_root_"></a>
+      <span class="permalink">
+      <a href="../../../../../index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../../../../../index.html"><span class="name">root</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../../../../index.html" class="extype" name="_root_">root</a></dd></dl></div>
+    </li><li name="_root_.nl" visbl="pub" class="indented1 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="nl"></a><a id="nl:nl"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../../../../index.html"><span class="name">nl</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../../../../index.html" class="extype" name="_root_">root</a></dd></dl></div>
+    </li><li name="nl.knaw" visbl="pub" class="indented2 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="knaw"></a><a id="knaw:knaw"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../../../index.html"><span class="name">knaw</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../../../index.html" class="extype" name="nl">nl</a></dd></dl></div>
+    </li><li name="nl.knaw.dans" visbl="pub" class="indented3 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="dans"></a><a id="dans:dans"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../../index.html"><span class="name">dans</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../../index.html" class="extype" name="nl.knaw">knaw</a></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib" visbl="pub" class="indented4 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="lib"></a><a id="lib:lib"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../index.html"><span class="name">lib</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../index.html" class="extype" name="nl.knaw.dans">dans</a></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.encode" visbl="pub" class="indented5 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="encode"></a><a id="encode:encode"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/encode/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../encode/index.html"><span class="name">encode</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="nl.knaw.dans.lib">lib</a></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.error" visbl="pub" class="indented5 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error"></a><a id="error:error"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/error/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../error/index.html"><span class="name">error</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="nl.knaw.dans.lib">lib</a></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.logging" visbl="pub" class="indented5 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="logging"></a><a id="logging:logging"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/logging/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../logging/index.html"><span class="name">logging</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="nl.knaw.dans.lib">lib</a></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.string" visbl="pub" class="indented5 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="string"></a><a id="string:string"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/string/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="../string/index.html"><span class="name">string</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="nl.knaw.dans.lib">lib</a></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.taskqueue" visbl="pub" class="indented5 current" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="taskqueue"></a><a id="taskqueue:taskqueue"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">taskqueue</span>
+      </span>
+      
+      <p class="shortcomment cmt">Classes that provide facilities to generate tasks from files in an inbox and execute those tasks.</p><div class="fullcomment"><div class="comment cmt"><p>Classes that provide facilities to generate tasks from files in an inbox and execute those tasks. The extension points
+for the user of the library are:</p><ul><li><a href="Task.html" class="extype" name="nl.knaw.dans.lib.taskqueue.Task">Task</a>: extend this to implement the application specific work to be done; when using the library from Java use <a href="AbstractJavaTask.html" class="extype" name="nl.knaw.dans.lib.taskqueue.AbstractJavaTask">AbstractJavaTask</a> instead, as
+    it lets you throw an exception to signal failure of the task.</li><li><a href="AbstractInbox.html" class="extype" name="nl.knaw.dans.lib.taskqueue.AbstractInbox">AbstractInbox</a>: extend this implementing <a href="AbstractInbox.html#createTask(f:better.files.File):Option[nl.knaw.dans.lib.taskqueue.Task[T]]" class="extmbr" name="nl.knaw.dans.lib.taskqueue.AbstractInbox#createTask">AbstractInbox#createTask</a> to generate the correct type of task for the appropriate files.</li><li><a href="TaskSorter.html" class="extype" name="nl.knaw.dans.lib.taskqueue.TaskSorter">TaskSorter</a>: optional object that lets you specify the order of processing for tasks that are enqueued en masse; when using this
+    library from Java use <a href="AbstractJavaTaskSorter.html" class="extype" name="nl.knaw.dans.lib.taskqueue.AbstractJavaTaskSorter">AbstractJavaTaskSorter</a> instead, as it lets you work with a <code>java.util.List</code>.</li></ul><p>Typical use would roughly look like this:
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="nl.knaw.dans.lib">lib</a></dd><div class="block">Example:
+               <ol><li class="cmt"><p></p><pre><span class="kw">case</span> <span class="kw">class</span> Order(id: <span class="std">Int</span> <span class="cmt">/* , ... more fields */</span>)
+
+<span class="kw">class</span> OrderProcessingTask(Order: Order) <span class="kw">extends</span> Task[Order] {
+  <span class="kw">def</span> run(): Try[<span class="std">Unit</span>] = {
+    <span class="cmt">// Process the order</span>
+  }
+
+  <span class="kw">def</span> getTarget: Order = order
+}
+
+<span class="kw">class</span> OrderInbox <span class="kw">extends</span> AbstractInbox[Order] {
+  <span class="kw">def</span> createTask(f: File): <span class="std">Option</span>[Task[T]] = {
+    <span class="cmt">// Determine if f is a file or directory that represents an order</span>
+  }
+}
+
+ <span class="cmt">// At service start-up</span>
+ <span class="kw">val</span> myOrderInboxWatcher = <span class="kw">new</span> InboxWatcher(<span class="kw">new</span> OrderInbox(File(<span class="lit">"/path/to/inbox"</span>)))
+ myOrderInboxWatcher.start()
+
+ <span class="cmt">// At service shut-down</span>
+ myOrderInboxWatcher.stop()</pre></li></ol>
+            </div></dl></div>
+    </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="class" href="AbstractInbox.html" title="An inbox is a directory that contains files (or directories) that generate tasks."></a>
+                        <a href="AbstractInbox.html" title="An inbox is a directory that contains files (or directories) that generate tasks.">AbstractInbox</a>
+                      </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="class" href="AbstractJavaTask.html" title="An alternative for Task that is easier to implement in Java."></a>
+                        <a href="AbstractJavaTask.html" title="An alternative for Task that is easier to implement in Java.">AbstractJavaTask</a>
+                      </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="class" href="AbstractJavaTaskSorter.html" title="A Java-compatible TaskSorter."></a>
+                        <a href="AbstractJavaTaskSorter.html" title="A Java-compatible TaskSorter.">AbstractJavaTaskSorter</a>
+                      </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="class" href="ActiveTaskQueue.html" title="TaskQueue that processes its Tasks on a dedicated thread."></a>
+                        <a href="ActiveTaskQueue.html" title="TaskQueue that processes its Tasks on a dedicated thread.">ActiveTaskQueue</a>
+                      </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="class" href="InboxWatcher.html" title="Active object that, after it is started, watches an inbox for new files appearing, using the FileMonitor provided by the inbox."></a>
+                        <a href="InboxWatcher.html" title="Active object that, after it is started, watches an inbox for new files appearing, using the FileMonitor provided by the inbox.">InboxWatcher</a>
+                      </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="class" href="PassiveTaskQueue.html" title="A TaskQueue that processes all of its tasks synchronously."></a>
+                        <a href="PassiveTaskQueue.html" title="A TaskQueue that processes all of its tasks synchronously.">PassiveTaskQueue</a>
+                      </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="trait" href="Task.html" title="A task that can succeed or fail."></a>
+                        <a href="Task.html" title="A task that can succeed or fail.">Task</a>
+                      </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="trait" href="TaskQueue.html" title="Interface to add tasks to a queue."></a>
+                        <a href="TaskQueue.html" title="Interface to add tasks to a queue.">TaskQueue</a>
+                      </li><li class="current-entities indented5">
+                        <span class="separator"></span>
+                        <a class="trait" href="TaskSorter.html" title="An object that can sort a list of tasks."></a>
+                        <a href="TaskSorter.html" title="An object that can sort a list of tasks.">TaskSorter</a>
+                      </li>
+              </ul>
+            </div>
+          </div>
+          <div id="content">
+            <body class="package value">
+      <div id="definition">
+        <div class="big-circle package">p</div>
+        <p id="owner"><a href="../../../../index.html" class="extype" name="nl">nl</a>.<a href="../../../index.html" class="extype" name="nl.knaw">knaw</a>.<a href="../../index.html" class="extype" name="nl.knaw.dans">dans</a>.<a href="../index.html" class="extype" name="nl.knaw.dans.lib">lib</a></p>
+        <h1>taskqueue<span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/index.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span></h1>
+        
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">taskqueue</span>
+      </span>
+      </h4>
+
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>Classes that provide facilities to generate tasks from files in an inbox and execute those tasks. The extension points
+for the user of the library are:</p><ul><li><a href="Task.html" class="extype" name="nl.knaw.dans.lib.taskqueue.Task">Task</a>: extend this to implement the application specific work to be done; when using the library from Java use <a href="AbstractJavaTask.html" class="extype" name="nl.knaw.dans.lib.taskqueue.AbstractJavaTask">AbstractJavaTask</a> instead, as
+    it lets you throw an exception to signal failure of the task.</li><li><a href="AbstractInbox.html" class="extype" name="nl.knaw.dans.lib.taskqueue.AbstractInbox">AbstractInbox</a>: extend this implementing <a href="AbstractInbox.html#createTask(f:better.files.File):Option[nl.knaw.dans.lib.taskqueue.Task[T]]" class="extmbr" name="nl.knaw.dans.lib.taskqueue.AbstractInbox#createTask">AbstractInbox#createTask</a> to generate the correct type of task for the appropriate files.</li><li><a href="TaskSorter.html" class="extype" name="nl.knaw.dans.lib.taskqueue.TaskSorter">TaskSorter</a>: optional object that lets you specify the order of processing for tasks that are enqueued en masse; when using this
+    library from Java use <a href="AbstractJavaTaskSorter.html" class="extype" name="nl.knaw.dans.lib.taskqueue.AbstractJavaTaskSorter">AbstractJavaTaskSorter</a> instead, as it lets you work with a <code>java.util.List</code>.</li></ul><p>Typical use would roughly look like this:
+</p></div><dl class="attributes block"> <div class="block">Example:
+               <ol><li class="cmt"><p></p><pre><span class="kw">case</span> <span class="kw">class</span> Order(id: <span class="std">Int</span> <span class="cmt">/* , ... more fields */</span>)
+
+<span class="kw">class</span> OrderProcessingTask(Order: Order) <span class="kw">extends</span> Task[Order] {
+  <span class="kw">def</span> run(): Try[<span class="std">Unit</span>] = {
+    <span class="cmt">// Process the order</span>
+  }
+
+  <span class="kw">def</span> getTarget: Order = order
+}
+
+<span class="kw">class</span> OrderInbox <span class="kw">extends</span> AbstractInbox[Order] {
+  <span class="kw">def</span> createTask(f: File): <span class="std">Option</span>[Task[T]] = {
+    <span class="cmt">// Determine if f is a file or directory that represents an order</span>
+  }
+}
+
+ <span class="cmt">// At service start-up</span>
+ <span class="kw">val</span> myOrderInboxWatcher = <span class="kw">new</span> InboxWatcher(<span class="kw">new</span> OrderInbox(File(<span class="lit">"/path/to/inbox"</span>)))
+ myOrderInboxWatcher.start()
+
+ <span class="cmt">// At service shut-down</span>
+ myOrderInboxWatcher.stop()</pre></li></ol>
+            </div></dl><div class="toggleContainer block">
+          <span class="toggle">
+            Linear Supertypes
+          </span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="nl.knaw.dans.lib.taskqueue.AbstractInbox" visbl="pub" class="indented0 " data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="AbstractInbox[T]extendsDebugEnhancedLogging"></a><a id="AbstractInbox[T]:AbstractInbox[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/AbstractInbox.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a title="An inbox is a directory that contains files (or directories) that generate tasks." href="AbstractInbox.html"><span class="name">AbstractInbox</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="../logging/DebugEnhancedLogging.html" class="extype" name="nl.knaw.dans.lib.logging.DebugEnhancedLogging">DebugEnhancedLogging</a></span>
+      </span>
+      
+      <p class="shortcomment cmt">An inbox is a directory that contains files (or directories) that generate tasks.</p><div class="fullcomment"><div class="comment cmt"><p>An inbox is a directory that contains files (or directories) that generate tasks. The
+inbox is responsible for converting those files into task objects. The nature of the task
+is determined by each concrete subclass of <code>AbstractInbox</code> by implementing <a href="AbstractInbox.html#createTask(f:better.files.File):Option[nl.knaw.dans.lib.taskqueue.Task[T]]" class="extmbr" name="nl.knaw.dans.lib.taskqueue.AbstractInbox#createTask">AbstractInbox#createTask</a>.</p><p>Converting files into tasks can be done synchronously, by calling <a href="AbstractInbox.html#enqueue(q:nl.knaw.dans.lib.taskqueue.TaskQueue[T],s:Option[nl.knaw.dans.lib.taskqueue.TaskSorter[T]]):scala.util.Try[Unit]" class="extmbr" name="nl.knaw.dans.lib.taskqueue.AbstractInbox#enqueue">AbstractInbox#enqueue</a>, or asynchronously
+by creating a  <code>FileMonitor</code> with <a href="AbstractInbox.html#createFileMonitor(q:nl.knaw.dans.lib.taskqueue.TaskQueue[T]):better.files.FileMonitor" class="extmbr" name="nl.knaw.dans.lib.taskqueue.AbstractInbox#createFileMonitor">AbstractInbox#createFileMonitor</a> and starting it in an execution context of
+choice. A common scenario is that these two are both needed in that order. This scenario is handled by <a href="InboxWatcher.html" class="extype" name="nl.knaw.dans.lib.taskqueue.InboxWatcher">InboxWatcher</a>.
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of target for the tasks</p></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.taskqueue.AbstractJavaTask" visbl="pub" class="indented0 " data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="AbstractJavaTask[T]extendsTask[T]"></a><a id="AbstractJavaTask[T]:AbstractJavaTask[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/AbstractJavaTask.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a title="An alternative for Task that is easier to implement in Java." href="AbstractJavaTask.html"><span class="name">AbstractJavaTask</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="Task.html" class="extype" name="nl.knaw.dans.lib.taskqueue.Task">Task</a>[<span class="extype" name="nl.knaw.dans.lib.taskqueue.AbstractJavaTask.T">T</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">An alternative for <a href="Task.html" class="extype" name="nl.knaw.dans.lib.taskqueue.Task">Task</a> that is easier to implement in Java.</p><div class="fullcomment"><div class="comment cmt"><p>An alternative for <a href="Task.html" class="extype" name="nl.knaw.dans.lib.taskqueue.Task">Task</a> that is easier to implement in Java. Instead of implementing <a href="Task.html#run():scala.util.Try[Unit]" class="extmbr" name="nl.knaw.dans.lib.taskqueue.Task#run">Task#run</a>
+implement <a href="AbstractJavaTask.html#runTask():Unit" class="extmbr" name="nl.knaw.dans.lib.taskqueue.AbstractJavaTask#runTask">AbstractJavaTask#runTask</a> and throw an exception when the task fails.
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of the target of this task</p></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.taskqueue.AbstractJavaTaskSorter" visbl="pub" class="indented0 " data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="AbstractJavaTaskSorter[T]extendsTaskSorter[T]"></a><a id="AbstractJavaTaskSorter[T]:AbstractJavaTaskSorter[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/AbstractJavaTaskSorter.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a title="A Java-compatible TaskSorter." href="AbstractJavaTaskSorter.html"><span class="name">AbstractJavaTaskSorter</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="TaskSorter.html" class="extype" name="nl.knaw.dans.lib.taskqueue.TaskSorter">TaskSorter</a>[<span class="extype" name="nl.knaw.dans.lib.taskqueue.AbstractJavaTaskSorter.T">T</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">A Java-compatible TaskSorter.</p><div class="fullcomment"><div class="comment cmt"><p>A Java-compatible TaskSorter. The sort implementation task a <code>java.util.List</code> which, unlike the Scala <code>List</code>,
+may be modified by the sort algorithm.
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of target for the tasks</p></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.taskqueue.ActiveTaskQueue" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ActiveTaskQueue[T]extendsTaskQueue[T]withDebugEnhancedLogging"></a><a id="ActiveTaskQueue[T]:ActiveTaskQueue[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/ActiveTaskQueue.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a title="TaskQueue that processes its Tasks on a dedicated thread." href="ActiveTaskQueue.html"><span class="name">ActiveTaskQueue</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="TaskQueue.html" class="extype" name="nl.knaw.dans.lib.taskqueue.TaskQueue">TaskQueue</a>[<span class="extype" name="nl.knaw.dans.lib.taskqueue.ActiveTaskQueue.T">T</span>] with <a href="../logging/DebugEnhancedLogging.html" class="extype" name="nl.knaw.dans.lib.logging.DebugEnhancedLogging">DebugEnhancedLogging</a></span>
+      </span>
+      
+      <p class="shortcomment cmt">TaskQueue that processes its <a href="Task.html" class="extype" name="nl.knaw.dans.lib.taskqueue.Task">Task</a>s on a dedicated thread.</p>
+    </li><li name="nl.knaw.dans.lib.taskqueue.InboxWatcher" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="InboxWatcher[T]extendsDebugEnhancedLogging"></a><a id="InboxWatcher[T]:InboxWatcher[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/InboxWatcher.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a title="Active object that, after it is started, watches an inbox for new files appearing, using the FileMonitor provided by the inbox." href="InboxWatcher.html"><span class="name">InboxWatcher</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="../logging/DebugEnhancedLogging.html" class="extype" name="nl.knaw.dans.lib.logging.DebugEnhancedLogging">DebugEnhancedLogging</a></span>
+      </span>
+      
+      <p class="shortcomment cmt">Active object that, after it is started, watches an inbox for new files appearing, using the FileMonitor provided
+by the inbox.</p><div class="fullcomment"><div class="comment cmt"><p>Active object that, after it is started, watches an inbox for new files appearing, using the FileMonitor provided
+by the inbox. Before receiving new files it will first process the files that were available at startup time.
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of target for the tasks</p></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.taskqueue.PassiveTaskQueue" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PassiveTaskQueue[T]extendsTaskQueue[T]withDebugEnhancedLogging"></a><a id="PassiveTaskQueue[T]:PassiveTaskQueue[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/PassiveTaskQueue.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a title="A TaskQueue that processes all of its tasks synchronously." href="PassiveTaskQueue.html"><span class="name">PassiveTaskQueue</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="TaskQueue.html" class="extype" name="nl.knaw.dans.lib.taskqueue.TaskQueue">TaskQueue</a>[<span class="extype" name="nl.knaw.dans.lib.taskqueue.PassiveTaskQueue.T">T</span>] with <a href="../logging/DebugEnhancedLogging.html" class="extype" name="nl.knaw.dans.lib.logging.DebugEnhancedLogging">DebugEnhancedLogging</a></span>
+      </span>
+      
+      <p class="shortcomment cmt">A TaskQueue that processes all of its tasks synchronously.</p><div class="fullcomment"><div class="comment cmt"><p>A TaskQueue that processes all of its tasks synchronously.
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of target for the tasks</p></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.taskqueue.Task" visbl="pub" class="indented0 " data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="Task[T]extendsAnyRef"></a><a id="Task[T]:Task[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/Task.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a title="A task that can succeed or fail." href="Task.html"><span class="name">Task</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">A task that can succeed or fail.</p><div class="fullcomment"><div class="comment cmt"><p>A task that can succeed or fail. This must be implemented by the application. The task probably has a type
+that represents the unit of work that it works on. For example, if your inbox processes orders, you will probably
+encapsulate all data about an order in an <code>Order</code> class. The target type of your task would then be <code>Order</code>.
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of the target of this task</p></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.taskqueue.TaskQueue" visbl="pub" class="indented0 " data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="TaskQueue[T]extendsAnyRef"></a><a id="TaskQueue[T]:TaskQueue[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/TaskQueue.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a title="Interface to add tasks to a queue." href="TaskQueue.html"><span class="name">TaskQueue</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Interface to add tasks to a queue.</p><div class="fullcomment"><div class="comment cmt"><p>Interface to add tasks to a queue.
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of target for the tasks</p></dd></dl></div>
+    </li><li name="nl.knaw.dans.lib.taskqueue.TaskSorter" visbl="pub" class="indented0 " data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="TaskSorter[T]extendsAnyRef"></a><a id="TaskSorter[T]:TaskSorter[T]"></a>
+      <span class="permalink">
+      <a href="../../../../../nl/knaw/dans/lib/taskqueue/TaskSorter.html" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a title="An object that can sort a list of tasks." href="TaskSorter.html"><span class="name">TaskSorter</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">An object that can sort a list of tasks.</p><div class="fullcomment"><div class="comment cmt"><p>An object that can sort a list of tasks.
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of target for the tasks</p></dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+    </body>
+          </div>
+        </div>
+      </div>
+    </body>
+      </html>
